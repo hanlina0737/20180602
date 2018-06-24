@@ -2,7 +2,6 @@
 import csv
 
 import os
-
 # [1,2,3]这种是一维列表,,[1,2,3][1,2,3],[1,2,3]这就是二维列表,列表中的一个元素也是也是一个列表就是二维列表
 class CsvFileManager4:
     # def read(self):

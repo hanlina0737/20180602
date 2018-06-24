@@ -11,7 +11,7 @@ class DBConnection:
             sql = 'select * from hd_user order by id desc;'
     # 5.通过游标执行sql语句
             cursor.execute(sql)
-    # 6.获取执行结果
+    # 6.获取执行结果0
             row = cursor.fetchone()
             # for row in all_result:
             # print(row)
